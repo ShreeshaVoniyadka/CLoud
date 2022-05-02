@@ -1,8 +1,7 @@
-from unittest import result
 from flask import Flask, render_template,request
 import requests
 app = Flask(__name__)
-secretkey = "fbf2c29ad43f404ca0e110825220205"
+secretkey="fbf2c29ad43f404ca0e110825220205"
 TEMPLATES_AUTO_RELOAD = True
 
 @app.route("/")

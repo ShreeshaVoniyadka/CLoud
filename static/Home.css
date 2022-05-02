@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
 *{
     font-family: 'Josefin Sans', sans-serif;
+    color: white;
 }
+body{
+  margin: 0;
+  background-image:url("pexels-hasan-albari-1229861.jpg");
+  background-size: cover;
+}
+
 h1{
     text-align: center;
 }
